@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FF61B741CA3FE9600207DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61B731CA3FE9600207DD2 /* AppDelegate.swift */; };
+		4FF61B761CA3FE9600207DD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61B751CA3FE9600207DD2 /* ViewController.swift */; };
+		4FF61B791CA3FE9600207DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF61B771CA3FE9600207DD2 /* Main.storyboard */; };
+		4FF61B7B1CA3FE9600207DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF61B7A1CA3FE9600207DD2 /* Assets.xcassets */; };
+		4FF61B7E1CA3FE9600207DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF61B7C1CA3FE9600207DD2 /* LaunchScreen.storyboard */; };
+		4FF61B891CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61B881CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift */; };
+		4FF61B941CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61B931CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FF61B851CA3FE9600207DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF61B681CA3FE9600207DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF61B6F1CA3FE9600207DD2;
+			remoteInfo = FAMCollapseTableView;
+		};
+		4FF61B901CA3FE9600207DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF61B681CA3FE9600207DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF61B6F1CA3FE9600207DD2;
+			remoteInfo = FAMCollapseTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FF61B701CA3FE9600207DD2 /* FAMCollapseTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAMCollapseTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF61B731CA3FE9600207DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FF61B751CA3FE9600207DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FF61B781CA3FE9600207DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FF61B7A1CA3FE9600207DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FF61B7D1CA3FE9600207DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FF61B7F1CA3FE9600207DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF61B841CA3FE9600207DD2 /* FAMCollapseTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAMCollapseTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF61B881CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAMCollapseTableViewTests.swift; sourceTree = "<group>"; };
+		4FF61B8A1CA3FE9600207DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF61B8F1CA3FE9600207DD2 /* FAMCollapseTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAMCollapseTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF61B931CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAMCollapseTableViewUITests.swift; sourceTree = "<group>"; };
+		4FF61B951CA3FE9600207DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF61B6D1CA3FE9600207DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF61B811CA3FE9600207DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF61B8C1CA3FE9600207DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF61B671CA3FE9600207DD2 = {
+			isa = PBXGroup;
+			children = (
+				4FF61B721CA3FE9600207DD2 /* FAMCollapseTableView */,
+				4FF61B871CA3FE9600207DD2 /* FAMCollapseTableViewTests */,
+				4FF61B921CA3FE9600207DD2 /* FAMCollapseTableViewUITests */,
+				4FF61B711CA3FE9600207DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF61B711CA3FE9600207DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF61B701CA3FE9600207DD2 /* FAMCollapseTableView.app */,
+				4FF61B841CA3FE9600207DD2 /* FAMCollapseTableViewTests.xctest */,
+				4FF61B8F1CA3FE9600207DD2 /* FAMCollapseTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF61B721CA3FE9600207DD2 /* FAMCollapseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4FF61B731CA3FE9600207DD2 /* AppDelegate.swift */,
+				4FF61B751CA3FE9600207DD2 /* ViewController.swift */,
+				4FF61B771CA3FE9600207DD2 /* Main.storyboard */,
+				4FF61B7A1CA3FE9600207DD2 /* Assets.xcassets */,
+				4FF61B7C1CA3FE9600207DD2 /* LaunchScreen.storyboard */,
+				4FF61B7F1CA3FE9600207DD2 /* Info.plist */,
+			);
+			path = FAMCollapseTableView;
+			sourceTree = "<group>";
+		};
+		4FF61B871CA3FE9600207DD2 /* FAMCollapseTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF61B881CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift */,
+				4FF61B8A1CA3FE9600207DD2 /* Info.plist */,
+			);
+			path = FAMCollapseTableViewTests;
+			sourceTree = "<group>";
+		};
+		4FF61B921CA3FE9600207DD2 /* FAMCollapseTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF61B931CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift */,
+				4FF61B951CA3FE9600207DD2 /* Info.plist */,
+			);
+			path = FAMCollapseTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF61B6F1CA3FE9600207DD2 /* FAMCollapseTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF61B981CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableView" */;
+			buildPhases = (
+				4FF61B6C1CA3FE9600207DD2 /* Sources */,
+				4FF61B6D1CA3FE9600207DD2 /* Frameworks */,
+				4FF61B6E1CA3FE9600207DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAMCollapseTableView;
+			productName = FAMCollapseTableView;
+			productReference = 4FF61B701CA3FE9600207DD2 /* FAMCollapseTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FF61B831CA3FE9600207DD2 /* FAMCollapseTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF61B9B1CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableViewTests" */;
+			buildPhases = (
+				4FF61B801CA3FE9600207DD2 /* Sources */,
+				4FF61B811CA3FE9600207DD2 /* Frameworks */,
+				4FF61B821CA3FE9600207DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF61B861CA3FE9600207DD2 /* PBXTargetDependency */,
+			);
+			name = FAMCollapseTableViewTests;
+			productName = FAMCollapseTableViewTests;
+			productReference = 4FF61B841CA3FE9600207DD2 /* FAMCollapseTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FF61B8E1CA3FE9600207DD2 /* FAMCollapseTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF61B9E1CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableViewUITests" */;
+			buildPhases = (
+				4FF61B8B1CA3FE9600207DD2 /* Sources */,
+				4FF61B8C1CA3FE9600207DD2 /* Frameworks */,
+				4FF61B8D1CA3FE9600207DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF61B911CA3FE9600207DD2 /* PBXTargetDependency */,
+			);
+			name = FAMCollapseTableViewUITests;
+			productName = FAMCollapseTableViewUITests;
+			productReference = 4FF61B8F1CA3FE9600207DD2 /* FAMCollapseTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF61B681CA3FE9600207DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Timers inc.";
+				TargetAttributes = {
+					4FF61B6F1CA3FE9600207DD2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4FF61B831CA3FE9600207DD2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4FF61B6F1CA3FE9600207DD2;
+					};
+					4FF61B8E1CA3FE9600207DD2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4FF61B6F1CA3FE9600207DD2;
+					};
+				};
+			};
+			buildConfigurationList = 4FF61B6B1CA3FE9600207DD2 /* Build configuration list for PBXProject "FAMCollapseTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF61B671CA3FE9600207DD2;
+			productRefGroup = 4FF61B711CA3FE9600207DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF61B6F1CA3FE9600207DD2 /* FAMCollapseTableView */,
+				4FF61B831CA3FE9600207DD2 /* FAMCollapseTableViewTests */,
+				4FF61B8E1CA3FE9600207DD2 /* FAMCollapseTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF61B6E1CA3FE9600207DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF61B7E1CA3FE9600207DD2 /* LaunchScreen.storyboard in Resources */,
+				4FF61B7B1CA3FE9600207DD2 /* Assets.xcassets in Resources */,
+				4FF61B791CA3FE9600207DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF61B821CA3FE9600207DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF61B8D1CA3FE9600207DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF61B6C1CA3FE9600207DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF61B761CA3FE9600207DD2 /* ViewController.swift in Sources */,
+				4FF61B741CA3FE9600207DD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF61B801CA3FE9600207DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF61B891CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF61B8B1CA3FE9600207DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF61B941CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF61B861CA3FE9600207DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF61B6F1CA3FE9600207DD2 /* FAMCollapseTableView */;
+			targetProxy = 4FF61B851CA3FE9600207DD2 /* PBXContainerItemProxy */;
+		};
+		4FF61B911CA3FE9600207DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF61B6F1CA3FE9600207DD2 /* FAMCollapseTableView */;
+			targetProxy = 4FF61B901CA3FE9600207DD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FF61B771CA3FE9600207DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF61B781CA3FE9600207DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FF61B7C1CA3FE9600207DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF61B7D1CA3FE9600207DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FF61B961CA3FE9600207DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FF61B971CA3FE9600207DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF61B991CA3FE9600207DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FAMCollapseTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FAMCollapseTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FF61B9A1CA3FE9600207DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FAMCollapseTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FAMCollapseTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FF61B9C1CA3FE9600207DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FAMCollapseTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FAMCollapseTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FAMCollapseTableView.app/FAMCollapseTableView";
+			};
+			name = Debug;
+		};
+		4FF61B9D1CA3FE9600207DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FAMCollapseTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FAMCollapseTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FAMCollapseTableView.app/FAMCollapseTableView";
+			};
+			name = Release;
+		};
+		4FF61B9F1CA3FE9600207DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FAMCollapseTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FAMCollapseTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FAMCollapseTableView;
+			};
+			name = Debug;
+		};
+		4FF61BA01CA3FE9600207DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FAMCollapseTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timers-inc.FAMCollapseTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FAMCollapseTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF61B6B1CA3FE9600207DD2 /* Build configuration list for PBXProject "FAMCollapseTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF61B961CA3FE9600207DD2 /* Debug */,
+				4FF61B971CA3FE9600207DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF61B981CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF61B991CA3FE9600207DD2 /* Debug */,
+				4FF61B9A1CA3FE9600207DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FF61B9B1CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF61B9C1CA3FE9600207DD2 /* Debug */,
+				4FF61B9D1CA3FE9600207DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FF61B9E1CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF61B9F1CA3FE9600207DD2 /* Debug */,
+				4FF61BA01CA3FE9600207DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FF61B681CA3FE9600207DD2 /* Project object */;
+}
