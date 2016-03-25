@@ -14,6 +14,7 @@
 		4FF61B7E1CA3FE9600207DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF61B7C1CA3FE9600207DD2 /* LaunchScreen.storyboard */; };
 		4FF61B891CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61B881CA3FE9600207DD2 /* FAMCollapseTableViewTests.swift */; };
 		4FF61B941CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61B931CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift */; };
+		4FF61BA21CA3FEA500207DD2 /* FAMCollapseTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF61BA11CA3FEA500207DD2 /* FAMCollapseTableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4FF61B8F1CA3FE9600207DD2 /* FAMCollapseTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAMCollapseTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF61B931CA3FE9600207DD2 /* FAMCollapseTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAMCollapseTableViewUITests.swift; sourceTree = "<group>"; };
 		4FF61B951CA3FE9600207DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF61BA11CA3FEA500207DD2 /* FAMCollapseTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAMCollapseTableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4FF61B7A1CA3FE9600207DD2 /* Assets.xcassets */,
 				4FF61B7C1CA3FE9600207DD2 /* LaunchScreen.storyboard */,
 				4FF61B7F1CA3FE9600207DD2 /* Info.plist */,
+				4FF61BA11CA3FEA500207DD2 /* FAMCollapseTableViewDataSource.swift */,
 			);
 			path = FAMCollapseTableView;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				4FF61B761CA3FE9600207DD2 /* ViewController.swift in Sources */,
 				4FF61B741CA3FE9600207DD2 /* AppDelegate.swift in Sources */,
+				4FF61BA21CA3FEA500207DD2 /* FAMCollapseTableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				4FF61B9A1CA3FE9600207DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FF61B9B1CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				4FF61B9D1CA3FE9600207DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FF61B9E1CA3FE9600207DD2 /* Build configuration list for PBXNativeTarget "FAMCollapseTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				4FF61BA01CA3FE9600207DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
