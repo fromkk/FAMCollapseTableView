@@ -64,7 +64,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let headerIdentifier = "headerIdentifier"
 
     lazy var dataSource :FAMCollapseTableViewDataSource = {
-        let result :FAMCollapseTableViewDataSource = FAMCollapseTableViewDataSource(dataSource: self)
+        let result :FAMCollapseTableViewDataSource = FAMCollapseTableViewDataSource(dataSource: self, delegate: nil)
         result.exclusiveSections = true
         return result
     }()
@@ -123,8 +123,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func sectionHeaderDidTapped(sectionHeader: SectionHeaderView) {
-        let open :Bool = (self.dataSource as FAMCollapseTableViewProtocol).tableView(self.tableView, toggleSection: sectionHeader.tag, animated: true)
-        print("\(open)")
+        (self.dataSource as FAMCollapseTableViewProtocol).tableView(self.tableView, toggleSection: sectionHeader.tag, animated: true)
     }
 }
 
